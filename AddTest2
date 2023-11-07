@@ -1,0 +1,7 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class AddTest2{
+  public void testNum(){
+    assertEquals(4, AddNums.add(1, 3));
+  }
